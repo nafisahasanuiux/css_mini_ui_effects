@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+}
+.blog-title {
+  animation: colorFade 2s infinite;
+}
+
+@keyframes colorFade {
+  0% { color: #ff6347; }
+  50% { color: #6a5acd; }
+  100% { color: #ff6347; }
+}
+
+.blog-snippet {
+  color: pink;
+  transition: font-size 0.3s ease;
+}
+
+.blog-snippet:hover {
+  font-size: 24px;
+}
+
+.subscribe-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #F8C8DC;
+  color: white;
+  padding: 10px;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #FF00FF;
+}
